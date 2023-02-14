@@ -154,7 +154,7 @@ li.exp {
 }
 
 p.section {
-    margin: 0 0 20px 0;
+    margin: 0 0 40px 0;
     font-family: 'Barlow Semi Condensed';
     font-size: 2em;
     text-transform: uppercase;
@@ -353,10 +353,14 @@ strong.contact {
 }
 
 @media only screen and (max-width: 575px) {
+    .section {
+        text-align: center;
+    }
 
     #skills {
         flex:1 1 100%;
         color: #E6F1F0;
+        text-align: center;
     }
     a.anchor {
         display: block;
