@@ -36,8 +36,8 @@ body {
 }
 
 #container {
-    min-width: 500px;
-    max-width: 500px;
+    min-width: 600px;
+    max-width: 600px;
 }
 
 #header-container {
@@ -55,7 +55,7 @@ body {
 
 #menu-container {
     display: flex;
-    min-width: 500px;
+    min-width: 600px;
     align-items: center;
     justify-content: center;
     height: 125px;
@@ -149,7 +149,7 @@ a {
 #footer {
     display: flex;
     flex-wrap: wrap;
-    max-width: 500px;
+    max-width: 600px;
     height: 125px;
     align-items: center;
 }
