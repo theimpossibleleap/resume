@@ -24,15 +24,10 @@
             line-height: 75px;
             border-radius: 50%;
             font-size: 50px;
-
             color: #E8EEED;
             text-align: center;
             background: #111010;
             font-family: 'splash';
-        }
-        
-        .sub-header {
-            margin: 100px 0 0 0;
         }
 
         #container {
@@ -85,12 +80,14 @@
             color: #E8EEED;
         }
 
+
+
         #logo {
 
         }
 
         .section {
-            margin-bottom:125px;
+            margin-bottom:150px;
         }
 
         h1 {
@@ -143,10 +140,6 @@
             text-decoration: none;
         }
 
-        a:hover {
-            color:rgb(27,84,72);
-        }
-
         #footer-container {
             display: flex;
             width: 100%;
@@ -168,10 +161,18 @@
             color: #E8EEED;
         }
 
-        a:link {
+        a:link, a:visited {
             color:#E8EEED;
         }
 
         a:hover {
             color:#111010;
+        }
+
+        a.top {
+            position: relative;
+            top:-125px;
+            display: block;
+            height: 0;
+            width:0;
         }
