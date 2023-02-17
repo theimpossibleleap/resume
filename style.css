@@ -68,15 +68,21 @@
         #menu-right {
             display: flex;
             flex: 1;
-            background: grey;
+            justify-content: right;
         }
 
         #menu-list {
             display: flex;
+            height: 125px;
             list-style: none;
-            padding: 0;
+            margin: 0;
             float: right;
-            background: white;
+            align-items: center;
+        }
+
+        #menu-list li {
+            padding-right: 35px;
+            color: #E8EEED;
         }
 
         #logo {
@@ -159,8 +165,13 @@
         #contact {
             padding:35px 75px 35px 0;
             font-size:.75em;
+            color: #E8EEED;
         }
 
-        #contact a:hover {
+        a:link {
             color:#E8EEED;
+        }
+
+        a:hover {
+            color:#111010;
         }
