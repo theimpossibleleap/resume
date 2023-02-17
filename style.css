@@ -11,7 +11,8 @@
             display:flex;
             flex-direction: column;
             background: #111010;
-            color: #E8EEED;
+            background:#E8EEED;
+            color:#111010;
             font-family: 'Roboto Mono';
             align-items:center;
             justify-content: center;
@@ -39,9 +40,8 @@
             max-width: 1000px;
         }
 
-        #head-container {
+        #header-container {
             display:flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
             background: rgb(27,84,72);
@@ -53,8 +53,34 @@
             z-index: 1;
         }
 
-        #logo {
+        #menu-container {
+            display: flex;
             min-width: 1000px;
+            align-items: center;
+            justify-content: center;
+            height: 125px;
+        }
+
+        #menu-left {
+            flex: 1;
+        }
+
+        #menu-right {
+            display: flex;
+            flex: 1;
+            background: grey;
+        }
+
+        #menu-list {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            float: right;
+            background: white;
+        }
+
+        #logo {
+
         }
 
         .section {
@@ -66,7 +92,7 @@
             position: -webkit-sticky;
             top: 125px;
             background: rgb(17,16,16);
-            background: linear-gradient(180deg, rgba(17,16,16,1) 0%, rgba(17,16,16,1) 80%, rgba(17,16,16,0) 100%);
+            background: linear-gradient(180deg, rgba(232,238,237,1) 0%, rgba(232,238,237,1) 80%, rgba(232,238,237,0) 100%);
             font-size: 82px;
             padding-bottom:30px;
             text-transform: uppercase;
@@ -103,11 +129,11 @@
 
         .skill {
             font-size:1em;
-            color: #E6F1F0;
+            color: #111010;
         }
 
         a {
-            color:#E8EEED;
+            color:#111010;
             text-decoration: none;
         }
 
@@ -136,5 +162,5 @@
         }
 
         #contact a:hover {
-            color:#111010;
+            color:#E8EEED;
         }
