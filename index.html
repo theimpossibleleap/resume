@@ -1,114 +1,51 @@
 <!DOCTYPE html>
-<meta name="viewport" content="initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#17252A">
-<meta property="og:image" content="images/Portrait.jpg">
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Punjabi</title>
 
-    <head>
-        <title>Adam Punjabi - Resume</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" type="font/woff2" crossorigin="anonymous">
-        <link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" type="font/woff2" crossorigin="anonymous">
-        <link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap" type="font/woff2" crossorigin="anonymous">
-    </head>
-
-    <body>
-        <div id="container">
-
-            <div id="top-nav">
-                <div id="nav-left">
-                    <div id="logo"><i class="bi bi-mask"></i></div> 
-                    <span class="name">Adam Punjabi</span>
-                    <div id="hamburglar"><p class="hamburglar" onClick="toggleMenu()"><i class="bi bi-list"></i></p></div>
-                </div>
-
-                <div id="nav-right" class="showing">
-                    <ul class="menu">
-                        <li class="menu"><element id="toggle" onClick="toggleMenuOff()"><a href="#anchor-about">About</a></element></li>
-                        <li class="menu"><element id="toggle" onClick="toggleMenuOff()"><a href="#anchor-experience">Experience</a></element></li>
-                        <li class="menu"><element id="toggle" onClick="toggleMenuOff()"><a href="#anchor-education">Education</a></element></li>
-                        <li class="menu"><element id="toggle" onClick="toggleMenuOff()"><a href="#anchor-skills">Skills</a></element></li>
-                    </ul>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 1100px)" href="style-small.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="style-mobile.css"> -->
+</head>
+<body>
+    <div id="header-container">
+        <div id="menu-container">
+            <div id="menu-left">
+                <div id="logo">
+                    <div class="circle">AP</div>
                 </div>
             </div>
-
-            <div id="header">
-               <!-- <div id="header-text">"Don't ever, for any reason, do anything, to anyone, for any reason, ever, no matter what, no matter where, or who, or who you are with, or where you are going, or where you've been, ever, for any reason whatsoever."</div>
-                <div id="header-text" style="padding-top:25px; font-weight:100;">-Michael Scott</div>-->
+            <div id="menu-right">
+                <ul id="menu-list">
+                    <li><a href="#about-anchor">About</a></li>
+                    <li><a href="#experience-anchor">Experience</a></li>
+                    <li><a href="#education-anchor">Education</a></li>
+                    <li><a href="#skills-anchor">Skills</a></li>
+                </ul>
             </div>
+        </div>
+    </div>
+    
+    <div id="container">
+        <a id="about-anchor" class="top"></a>
+        <div id="about" class="sub-header section">
+            <h1 id="about-header">About</h1>
 
-            <div id="content">
-                <div id="about"><a class="anchor" id="anchor-about"></a>
-                    <p class="section"><i class="bi bi-person-badge" style="color:#161618;"></i>&nbsp;About</p>
-                    <ul class="exp" style="margin-bottom: 75px; text-align: justify;"">
-                        <li class="exp">Hello!</li><br>
-                        <li class="exp">Thank you for taking the time to read my resume. I really appreciate it! <b>I know it's hard to capture a person's experience, skills, and personality in a traditional resume.</b> Because of that, I decided to make this website. It has most the information you may need, as well as some you absolutely do not. This includes some Easter eggs hidden in links. Click around!</li><br>
-                        <li class="exp">I currently live in <b>Las Vegas, NV</b>. Unlike most people, I was born and raised here! I have a deep passion for cooking, baking, coffee, technology, travel, and carpentry. <b>I'm a very curious person</b>! Whenever I hear something is challenging to do, I want to try and master it! This includes baking Macarons, to remodeling my entire kitchen myself. All it takes some times is blood, sweat, Google, and YouTube. I'm currently deep in to A-Frame cabin building.. I'll try and make that happen soon!</li><br>
-                        <li class="exp"><b>Technology has been a huge part of my life since I was a kid.</b> My neighbor taught me how to run Doom through a command prompt, on a floppy disk, in 1994. Ever since then I've been interested in computers, technology, and learning how it all works. <b>I started building websites in the late 90s / early 2000s</b>. It was a lot of copy and pasting.. There was also a lot of Geocities goofiness, if you remember that.. I'm glad I stuck with it though! <b>I'm currently going to school for my Bachelor of Science in Software Development</b>. I'm currently a Manager with Apple Retail. It has truly been an amazing experience. I'm excited for the next chapter in my career as I pursue positions more relevant to my learning and future growth! </li><br>
-                        <li class="exp"><b>I want to note that my website was 100% developed and coded by myself.</b> With a little help from Google and MDN Docs. I built it to be responsive, have quick load times, and be flexible to my needs. I hope that comes across, and I hope you enjoy!</li><br>
-                        <li class="exp"><b>Thank you</b> for taking the time to read and visit my website! Hopefully it was informative and makes you laugh at least once! Please reach out for any further information or inquiries. My "professional" resume can be found <a href="files/Resume.pdf" style="color:black; text-decoration: underline;">here</a>.</li><br>
-                        <li class="exp">- Adam Punjabi</li>
-                    </ul>
-                </div>
+            <h2><span id="hello">H</span>ello,</h2>
 
-                <div id="experience"><a class="anchor" id="anchor-experience"></a>
-                    <p class="section"><i class="bi bi-clock-history" style="color:#161618;"></i>&nbsp;Experience</p>
-                    <h2 class="sub-section"><strong>07/2022 &#8594 Present</strong><br>Manager @ Apple Inc.</a></h2>
-                    <ul class="exp">
-                        <li class="exp">Utilized problem-solving methodology to identify opportunities and implement action plans.</li><br>
-                        <li class="exp">Responsible for managing day-to-day activities of over 90 employees.</li><br>
-                        <li class="exp">Coached team with a high-volume of customer requests, achieving over 85+ NPS Score, leading Apple Retail.</li><br>
-                        <li class="exp">Support change management and foster a culture of performance, leading team to YOY growth in all KPIs.</li><br>
-                        <li class="exp">Created responsive E-Mail template for team newsletter utilizing HTML / CSS.</li><br>
-                  </ul>
-                    <h2 class="sub-section"><strong>01/2022 &#8594 07/2022</strong><br><a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Ffe%2F4b%2F0d%2Ffe4b0d2621e721bb3bd88ff1e0d62b59.jpg&f=1&nofb=1" target="_blank" rel="noopener noreferrer">Employee Survey Project Manager @ Apple Inc.</a></h2>
-                    <ul class="exp">
-                        <li class="exp">Utilized HTML, CSS, and JavaScript to debug existing codebase.</li><br>
-                        <li class="exp">Built responsive HTML templates from the ground up for internal E-Mail and Project Landing Pages.</li><br>
-                        <li class="exp">Collaborated with key stakeholders and Program Managers to identify timeline, mitigate risk, and complete project.</li><br>
-                        <li class="exp">Partnered with third-party vendors to support the project UAT, identify bugs, and ensure collaborative success.</li><br>
-                        <li class="exp">Developed and presented company-wide training materials for third-party vendor dashboard usage and features.</li><br>
-                        <li class="exp">Utilized Project Management software and methodologies to support company-wide projects.</li><br>
-                  </ul>
-                    <h2 class="sub-section"><strong>2020 &#8594 2022</strong><br><a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.memesmonkey.com%2Fimages%2Fmemesmonkey%2F24%2F24bfce618d0df18d5cfa018835fc79b3.jpeg&f=1&nofb=1" target="_blank" rel="noopener noreferrer">Retail at Home Project Manager @ Apple Inc.</a></h2>
-                    <ul class="exp">
-                        <li class="exp">Led the Nevada Market Apple Stores in transitioning all retail employees to working from home.</li><br>
-                        <li class="exp">Held weekly syncs with key stakeholders to identify goals, implement action plans, and manage risk.</li><br>
-                        <li class="exp">Crafted trainings and workshops to support other Project Managers through the transition.</li><br>
-                        <li class="exp">Communicated effectively with employees to support change initiatives.</li><br>
-                        <li class="exp">Successfully transitioned all employees in to the program ahead of schedule and with great confidence.</li><br>
-                  </ul>
-                  <h2 class="sub-section"><strong>2016 &#8594 2020</strong><br><a href="https://www.goodreads.com/book/show/39003820-somehow-i-manage" target="_blank" rel="noopener noreferrer">Manager @ Apple Inc.</a></h2>
-                    <ul class="exp">
-                        <li class="exp">Identified behaviors to promote growth of employees and address performance concerns.</li><br>
-                        <li class="exp">Supported cross-functional teams to exceed customer expectations and bottom-line objectives.</li><br>
-                        <li class="exp">Led the company in Employee Satisfaction, achieving an 83% likelihood to recommend.</li><br>
-                        <li class="exp">Analyzed complex scheduling data to improve processes, exceeding all scheduling KPIs.</li><br>
-                        <li class="exp">Utilized problem-solving methodology to identify opportunities and implement action plans.</li><br>
-                  </ul>
-                    <h2 class="sub-section"><strong>2014 &#8594 2016</strong><br><a href="https://i.imgur.com/eOgFPpy.jpg" target="_blank" rel="noopener noreferrer">Lead Technician @ Apple Inc.</a></h2>
-                    <ul class="exp">
-                        <li class="exp">Spearheaded deployment of a new service and support strategy, from planning to execution.</li><br>
-                        <li class="exp">Achieved a 25% YOY Increase in sessions delivered, exceeding Market expectations.</li><br>
-                        <li class="exp">Improved repair turn around time to within 24 hours by implementing a same-day repair strategy.</li><br>
-                        <li class="exp">Led the rollout of new company initiatives organizing content to present to the team for time sensitive learning.</li><br>
-                        <li class="exp">Provided leadership to mentor direct reports on individual performance to improve team KPIs.</li>
-                    </ul>
-                    <h2 class="sub-section"><strong>2008 &#8594 2014</strong><br><a href="https://c.tenor.com/YwSmqv2CZr8AAAAd/dog-mechanic.gif" target="_blank" rel="noopener noreferrer">Technician @ Apple Inc.</a></h2>
-                    <ul class="exp" style="margin-bottom: 75px;"></strong>
-                        <li class="exp">Achieved top scoring for customer satisfaction delivering technical support appointments.</li><br>
-                        <li class="exp">Consistently performed above the high level expected of the role.</li><br>
-                        <li class="exp">Mentored and challenged peers to set and achieve personal goals.</li>
-                    </ul>
-                </div>
+            <p>Thank you for taking the time to read my resume. I really appreciate it! I know it's hard to capture a person's experience, skills, and personality in a traditional resume. Because of that, I decided to make this website. It has most the information you may need, as well as some you absolutely do not. This includes some Easter eggs hidden in links. Click around!</p>
 
-                <div id="education"><a class="anchor" id="anchor-education"></a>
-                    <p class="section"><i class="bi bi-mortarboard" style="color:#161618;"></i>&nbsp;Education</p>
+            <p>I currently live in Las Vegas, NV. Unlike most people, I was born and raised here! I have a deep passion for cooking, baking, coffee, technology, travel, and carpentry. I'm a very curious person! Whenever I hear something is challenging to do, I want to try and master it! This includes baking Macarons, to remodeling my entire kitchen myself. All it takes some times is blood, sweat, Google, and YouTube. I'm currently deep in to A-Frame cabin building.. I'll try and make that happen soon!
+            </p>
 
-                    <h2 class="sub-section"><strong>Western Governors University</strong><br><br><span class="degree" style="font-weight: 700;">Bachelor of Science</span><br><span class="study" style="font-weight: 200;">Software Development <i><b>(In Progress)</b></i></span></h2>
+            <p>Technology has been a huge part of my life since I was a kid. My neighbor taught me how to run Doom through a command prompt, on a floppy disk, in 1994. Ever since then I've been interested in computers, technology, and learning how it all works. I started building websites in the late 90s / early 2000s. It was a lot of copy and pasting.. There was also a lot of Geocities goofiness, if you remember that.. I'm glad I stuck with it though! I'm currently going to school for my Bachelor of Science in Software Development. I'm currently a Manager with Apple Retail. It has truly been an amazing experience. I'm excited for the next chapter in my career as I pursue positions more relevant to my learning and future growth!</p>
 
-                    <h2 class="sub-section"><strong>The Odin Project</strong><br><br><span class="degree" style="font-weight: 700;">Full Stack Developer</span><br><span class="study" style="font-weight: 200;">JavaScript Path <i><b>(In Progress)</b></i></span></h2>
+            <p>I want to note that my website was 100% developed and coded by myself. With a little help from Google and MDN Docs. I built it to be responsive, have quick load times, and be flexible to my needs. I hope that comes across, and I hope you enjoy!</p>
 
+<<<<<<< HEAD
                     <h2 class="sub-section" style="margin-bottom:100px;"><strong>College of Southern Nevada</strong><br><br><span class="degree" style="font-weight: 700;">Certificate</span><br><span class="study" style="font-weight: 200;">Music Business & Technology</span></h2>
                 </div>
                 
@@ -148,27 +85,141 @@
                 <div id="contact"><strong class="contact"><i class="bi bi-geo-alt"></i>&nbsp;</strong>&nbsp;<a href="https://www.google.com/maps/place/Las+Vegas,+NV/" target="_blank" rel="noopener noreferrer">las vegas, nv, 89179</a></div>
                 <div id="contact"><strong class="contact"><i class="bi bi-linkedin"></i>&nbsp;</strong>&nbsp;<a href="https://www.linkedin.com/in/adam-punjabi/" target="_blank" rel="noopener noreferrer">linkedin</a></div>
             </div>
+=======
+            <p>Thank you for taking the time to read and visit my website! Hopefully it was informative and makes you laugh at least once! Please reach out for any further information or inquiries. My "professional" resume can be found here.</p>
+>>>>>>> new-design
 
+            <p>- Adam Punjabi</p>
         </div>
 
-        <script>
-            var isTouch = 'ontouchstart' in window;
-            document.documentElement.className += isTouch?' touch ':' no-touch ';   
-        </script>
+        <a id="experience-anchor" class="top"></a>
+        <div id="experience" class="sub-header section">
+            <h1>Experience</h1>
 
-       <script>
-            function toggleMenu() {
-            var element = document.getElementById("nav-right");
-                element.classList.toggle("hidden");
-            }
-        </script>
-        <script>
-            function toggleMenuOff() {
-            var element = document.getElementById("nav-right");
-                element.classList.toggle("hidden");
-            }
-        </script>
+            <h2>Manager @ Apple Inc.</h2>
+            <p class="years">07/2022 → Present</p>
+            
+            <ul>
+                <li>Utilized problem-solving methodology to identify opportunities and implement action plans.</li>
+                <li>Responsible for managing day-to-day activities of over 90 employees.</li>
+                <li>Coached team with a high-volume of customer requests, achieving over 85+ NPS Score, leading Apple Retail.</li>
+                <li>Support change management and foster a culture of performance, leading team to YOY growth in all KPIs.</li>
+                <li>Created responsive E-Mail template for team newsletter utilizing HTML / CSS.</li>
+            </ul>
 
-    </body>
+            <h2>Employee Survey Project Manager @ Apple Inc.</h2>
+            <p class="years">01/2022 → 07/2022</p>
+            
+            <ul>
+                <li>Utilized HTML, CSS, and JavaScript to debug existing codebase.</li>
+                <li>Built responsive HTML templates from the ground up for internal E-Mail and Project Landing Pages.</li>
+                <li>Collaborated with key stakeholders and Program Managers to identify timeline, mitigate risk, and complete project.</li>
+                <li>Partnered with third-party vendors to support the project UAT, identify bugs, and ensure collaborative success.
+                </li>
+                <li>Developed and presented company-wide training materials for third-party vendor dashboard usage and features.</li>
+                <li>Utilized Project Management software and methodologies to support company-wide projects.</li>
+            </ul>
 
+            <h2>Retail at Home Project Manager @ Apple Inc.</h2>
+            <p class="years">03/2020 → 01/2022</p>
+            
+            <ul>
+                <li>Led the Nevada Market Apple Stores in transitioning all retail employees to working from home.</li>
+                <li>Held weekly syncs with key stakeholders to identify goals, implement action plans, and manage risk.</li>
+                <li>Crafted trainings and workshops to support other Project Managers through the trcode ansition.</li>
+                <li>Communicated effectively with employees to support change initiatives.</li>
+                <li>Successfully transitioned all employees in to the program ahead of schedule and with great confidence.</li>
+            </ul>
+
+            <h2>Manager @ Apple Inc.</h2>
+            <p class="years">2016 → 2020</p>
+            
+            <ul>
+                <li>Identified behaviors to promote growth of employees and address performance concerns.</li>
+                <li>Supported cross-functional teams to exceed customer expectations and bottom-line objectives.</li>
+                <li>Led the company in Employee Satisfaction, achieving an 83% likelihood to recommend.</li>
+                <li>Analyzed complex scheduling data to improve processes, exceeding all scheduling KPIs.</li>
+                <li>Utilized problem-solving methodology to identify opportunities and implement action plans.</li>
+            </ul>
+
+            <h2>Lead Technician @ Apple Inc.</h2>
+            <p class="years">2014 → 2016</p>
+            
+            <ul>
+                <li>Spearheaded deployment of a new service and support strategy, from planning to execution.</li>
+                <li>Achieved a 25% YOY Increase in sessions delivered, exceeding Market expectations.</li>
+                <li>Improved repair turn around time to within 24 hours by implementing a same-day repair strategy.
+                </li>
+                <li>Led the rollout of new company initiatives organizing content to present to the team for time sensitive learning.</li>
+                <li>Provided leadership to mentor direct reports on individual performance to improve team KPIs.</li>
+            </ul>
+
+            <h2>Senior Technician @ Apple Inc.</h2>
+            <p class="years">2008 → 2014</p>
+            
+            <ul>
+                <li>Achieved top scoring for customer satisfaction delivering technical support appointments.</li>
+                <li>Consistently performed above the high level expected of the role.</li>
+                <li>Mentored and challenged peers to set and achieve personal goals.
+                </li>
+            </ul>
+
+            <h2>Graphic and Web Designer @ PAX Apparel</h2>
+            <p class="years">2007 → 2008</p>
+            
+            <ul>
+                <li>Utilized HTML, CSS, and PHP to build front and back-end of company website.</li>
+                <li>Set up and coded online store for clients to order apparel directly.</li>
+                <li>Designed all web graphics, e-mail assets, and promotional material using Adobe Photoshop and Adobe Illustrator.</li></a>
+            </ul>
+        </div>
+
+        <a id="education-anchor" class="top"></a>
+        <div id="education" class="sub-header section">
+            <h1>Education</h1>
+
+            <h2>Western Governors University</h2>
+            <p class="years">Bachelor of Science -- Software Development (<i>In Progress</i>)</p>
+
+            <h2>The Odin Project</h2>
+            <p class="years">Full Strack Developer -- JavaScript Track (<i>In Progress</i>)</p>
+
+            <h2>College of Southern Nevada</h2>
+            <p class="years">Certificate -- Music Business & Technology</p>
+        </div>
+
+        <a id="skills-anchor" class="top"></a>
+        <div id="skills" class="sub-header section" style="margin-bottom:25px;">
+            <h1>Skills</h1>
+            <div id="skillsdiv">
+                <div class="skill">Googling</a><br>&#9724; &#9724; &#9724; &#9724; &#9724;</div>
+                <div class="skill">HTML<br>&#9724; &#9724; &#9724; &#9724; &#9724;</div>
+                <div class="skill">CSS<br>&#9724; &#9724; &#9724; &#9724; &#9724;</div>
+                <div class="skill">JavaScript<br>&#9724; &#9724; &#9724; &#9724; &#9723;</div>
+                <div class="skill">Python<br>&#9724; &#9724; &#9724; &#9723; &#9723;</div>
+                <div class="skill">MySQL<br>&#9724; &#9724; &#9724; &#9723; &#9723;</div>
+                <div class="skill">GitHub<br>&#9724; &#9724; &#9724; &#9724; &#9723;</div>
+                <div class="skill">VS Code<br>&#9724; &#9724; &#9724; &#9724; &#9723;</div>
+                <div class="skill">Office 365 / Google Docs<br>&#9724; &#9724; &#9724; &#9724; &#9723;</div>
+                <div class="skill">Figma<br>&#9724; &#9724; &#9724; &#9724; &#9723;</div>
+                <div class="skill">Wrike<br>&#9724; &#9724; &#9724; &#9724; &#9723;</div>
+                <div class="skill">Problem Solving<br>&#9724; &#9724; &#9724; &#9724; &#9724;</div>
+                <div class="skill">Learning on the Fly<br>&#9724; &#9724; &#9724; &#9724; &#9724;</div>
+                <div class="skill">Priority Setting<br>&#9724; &#9724; &#9724; &#9724; &#9724;</div>
+                <div class="skill">Manages Complexity<br>&#9724; &#9724; &#9724; &#9724; &#9724;</div>
+                <div class="skill">Action Oriented<br>&#9724; &#9724; &#9724; &#9724; &#9724;</div>
+                <div class="skill">Communicates Effectively<br>&#9724; &#9724; &#9724; &#9724; &#9723;</div>
+                <div class="skill"><a id="skill" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Detial Oriented</a><br>&#9724; &#9723; &#9723; &#9723; &#9723;</div>
+            </div>
+        </div>
+    </div> 
+    <div id="footer-container">
+        <div id="footer">
+            <div class="contact"><i class="bi bi-telephone"></i>&nbsp;&nbsp;(702) 807-3900</div>
+            <div class="contact"><i class="bi bi-envelope"></i>&nbsp;&nbsp;<a href="mailto:yell@adampunjabi.com">yell@adampunjabi.com</a></div>
+            <div class="contact"><i class="bi bi-geo-alt"></i>&nbsp;&nbsp;<a href="https://www.google.com/maps/place/Las+Vegas,+NV/" target="_blank" rel="noopener noreferrer">henderson, nv, 89044</a></div>
+            <div class="contact"><i class="bi bi-linkedin"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/adam-punjabi/" target="_blank" rel="noopener noreferrer">linkedin</a></div>
+        </div>
+    </div>
+</body>
 </html>
