@@ -244,14 +244,14 @@ a.top {
 
     #footer-container { /* blue */
         min-width: 0;
-        max-width: 390px;
+        max-width: 768px;
     }
 
     #footer { /* purple */
         display: flex;
         flex-flow: wrap;
         min-width: 0px;
-        max-width: 480px;
+        max-width: 390px;
         padding: 25px;
     }
 
