@@ -131,6 +131,11 @@ p.years {
     font-weight: 700;
 }
 
+p.degree {
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
 #skillsdiv {
     display: flex;
     flex-wrap: wrap;
