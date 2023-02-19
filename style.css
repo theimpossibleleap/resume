@@ -323,10 +323,6 @@ a.top {
         padding: 0 35px 0 35px;
     }
 
-    #menu-list {
-        font-size: 18px;
-    }
-
     #footer-container { /* blue */
         display:flex;
         min-width: 768px;
