@@ -69,17 +69,22 @@ body {
 }
 
 #menu-list li {
-    padding-right: 35px;
-    color: #E8EEED;
+    padding-right: 15px;
+    color: #E8EEED;  
 }
 
 #menu-list a:link,
 #menu-list a:visited {
     color: #E8EEED;
+    display:block;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 #menu-list a:hover {
     color:#111010;
+    background:#E8EEED;
+    transition: ease-in-out 0.2s;
 }
 
 .section {
@@ -340,12 +345,12 @@ a.top {
     }
 
     h1 {
-        font-size: 48px;
-        margin-bottom: 25px;
+        font-size: 64px;
+        margin-bottom: 35px;
     }
 
     #about-header {
-        margin-bottom: 100px;
+        margin-bottom: 120px;
     }
 
     .skill {
