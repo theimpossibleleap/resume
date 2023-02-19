@@ -108,6 +108,7 @@ h1 {
 h2 {
     text-transform: uppercase;
     color: rgb(27,84,72);
+    font-size: 20px;
 }
 
 h4 {
@@ -148,8 +149,12 @@ p.degree {
 }
 
 .skill {
-    font-size:1em;
     color: #111010;
+}
+
+h2.skills-text {
+    margin-bottom: -15px;
+    font-size: 20px;
 }
 
 a:link, a:visited {
@@ -274,7 +279,7 @@ a.top {
     }
 
     .contact { /* gray */
-        display:flex;
+        display: flex;
         width: 50%;
         margin: 20px 0 20px 0;
         padding: 0px;
