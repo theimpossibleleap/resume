@@ -300,6 +300,11 @@ a.top {
         flex: 1 1 100%;
     }
 
+    #menu-list a:hover {
+        color:#E8EEED;
+        background: none;
+    }
+
     
  }
 
